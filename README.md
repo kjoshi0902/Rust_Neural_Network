@@ -1,5 +1,5 @@
 # Rust_Neural_Network
-In this, we define a NeuralNetwork struct that stores the weights and biases of the network as vectors of ndarrays. The new() method creates a new instance of NeuralNetwork with random weights and biases based on the layer sizes passed in as an argument.
+In this, I define a NeuralNetwork struct that stores the weights and biases of the network as vectors of ndarrays. The new() method creates a new instance of NeuralNetwork with random weights and biases based on the layer sizes passed in as an argument.
 
 I also define a sigmoid() function that applies the sigmoid activation function to a given scalar value, and a feedforward() method that takes an input vector, applies the weights and biases of the network, and returns an output vector.
 
